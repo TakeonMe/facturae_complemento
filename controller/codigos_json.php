@@ -3,10 +3,6 @@
  * @author Pedro Javier López Sánchez     info@takeonme.es
  * @copyright 2017, Pedro Javier López Sánchez. All Rights Reserved.
 **/
-require_model('cliente.php');
-require_model('factura_cliente.php');
-
-require_model('codigos_facturae.php');
 
 class codigos_json extends fs_controller
 {
