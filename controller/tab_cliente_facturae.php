@@ -83,7 +83,7 @@ class tab_cliente_facturae extends fs_controller
    }
 
    public function share_extension(){
-      $enlace_js = '<script src="'.FS_PATH.'plugins/facturae_complemento/view/js/js.js?v=0"></script>';
+      $enlace_js = '<script src="'.FS_PATH.'plugins/facturae_complemento/view/js/js.js?v=3"></script>';
       $extensiones = array(
           array(
               'name' => 'tab_cliente_facturae',
