@@ -34,6 +34,7 @@ function add_select(name){
 }
 
 function adapta(obj){
+  $("input[name='"+obj+"']").val('');
   $("input[name='"+obj+"']").parent('.form-group').append('<div class="input-group" id="'+ obj +'_add"></div>');
   $("#"+ obj +"_add").append($("input[name='"+ obj +"']"));
   $("#"+ obj +"_add").append('<span id="crea_sel_'+ obj +'" class="input-group-addon"><i class="fa fa-th-list"></i></span>');
